@@ -1,0 +1,280 @@
+// Default 
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    // background-color: #E5E5E5;
+}
+
+// Header 
+#food--valley--header {
+    padding: 2% 10% 0;
+    display: flex;
+    // background-color: red;
+    align-items: center;
+    .logo {
+        width: 50%;
+        h2 {
+            span {
+                color: #FBA24F;
+                font-style: italic;
+            }
+        }
+    }
+    .menu {
+        width: 50%;
+        ul {
+            text-align: center;
+            li {
+                list-style: none;
+                display: inline-flex;
+                padding: 0 2%;
+                a {
+                    text-decoration: none;
+                    color: #575757;
+                    font-size: 20px;
+                }
+                a:hover {
+                    color: #FBA24F;
+                }
+            }
+        }
+    }
+}
+
+// Banner 
+#banner {
+    margin: 40px 0 40px 0;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    .conetnt {
+        width: 50%;
+        h1 {
+            margin-bottom: 40px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 130%;
+            letter-spacing: -0.02em;
+            span {
+                color: #FBA24F;
+            }
+        }
+        p {
+            margin-bottom: 50px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 160%;
+            letter-spacing: -0.02em;
+            color: #828282;
+        }
+        a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 130%;
+            color: #FFFFFF;
+            /* gradient */
+            background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+            box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+            border-radius: 100px;
+            padding: 24px 32px;
+            text-decoration: none;
+        }
+    }
+    .image {
+        width: 50%;
+        text-align: right;
+        img {}
+    }
+}
+
+// About 
+#about {
+    background-image: url(../img/about_background.png);
+    padding: 150px 10% 0 10%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+    .image {
+        text-align: center;
+        width: 50%;
+        img {}
+    }
+    .content {
+        padding: 0 10%;
+        width: 50%;
+        h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 54px;
+            color: #707070;
+            margin-bottom: 32px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: #18191F;
+            margin-bottom: 90px;
+        }
+        a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 130%;
+            color: #FFFFFF;
+            background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+            box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+            border-radius: 100px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 32px;
+            text-decoration: none;
+        }
+    }
+}
+
+// Video 
+#food--valley--video {
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+// Recipies 
+#recipies {
+    padding: 0 10% 100px;
+    .header {
+        padding: 0 25%;
+        h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #676767;
+            margin-bottom: 30px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            color: #252525;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .item {
+            background-color: #ffffff;
+            width: 28%;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            img {
+                height: 350px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+                margin-bottom: 40px;
+            }
+            h3 {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 40px;
+                color: #18191F;
+                margin-bottom: 10px;
+            }
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 32px;
+                color: #18191F;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+// Counter 
+#counter {
+    padding: 0 10% 100px;
+    .food--valley--counter {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 65px 0;
+        .youtube,
+        .instragram,
+        .dribble {
+            h1 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 64px;
+                color: #18191F;
+            }
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                color: #18191F;
+            }
+        }
+    }
+}
+
+// Footer 
+#food--valley--footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 50px 0;
+    h2 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 41px;
+        color: #5B5B5B;
+        span {
+            color: #FBA24F;
+            font-style: italic;
+        }
+        padding-bottom: 15px;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
